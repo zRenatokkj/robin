@@ -1,0 +1,108 @@
+body{
+    background-color: gray;
+}
+
+.header{
+    padding: 20px;
+}
+
+.links{
+    display: inline;
+    margin-left: 480px;
+}
+
+.links a{
+    margin-left: 15px;
+    text-decoration:none ;
+    font-weight:bold ;
+    color:black ;
+    padding: 3px;
+}
+
+ .links a:hover{
+    color: darkorange;
+    border-top: 2px solid #f7ab08;
+    border-bottom: 2px solid #f7ab08;
+}
+
+.link-a-1{
+    background-color:#e605d3 ;
+    border: #e605d3 solid 2px ;
+    color: rgb(255, 0, 0) ;
+    font-weight: bold;
+}
+
+.link-a-2{
+    background-color: transparent;
+    border:#e605d3;
+    font-weight:bold;
+}
+
+.span-1, .span-2{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.span-1{
+    color: #85037a;
+
+}
+
+.span-2{
+    color:#e605d3
+}
+
+.secao-1{
+    width: 500px;
+    margin-left:50px;
+    margin-top:50px;
+}
+.img img{
+    width: 70%;
+    border-radius: 110%;
+}
+
+.secao-2{
+    width: 500px;
+    margin-left:50px;
+    margin-top:50px;
+}
+
+img{
+    width: 100px;
+}
+
+.img-col{
+    width:70px;
+    border-radius:100% ;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align:center;
+    width: 30%;
+    vertical-align: top;
+    margin:0.5% 1.5%;
+    padding:20px 30px;
+    box-sizing: border-box;
+    border:4px solid #9a9649;
+    border-radius:30px;
+}
+
+.produto img{
+    width: 100px;
+}
+
+.produtos li:hover{
+    border-color:#C78C19
+}
+
+.produtos li:active{
+    border-color: rgb(238, 2, 2) ;
+    border: 6px solid; 
+}
+
+.produtos li:hover h2{
+    font-size :42px ;
+}
+
